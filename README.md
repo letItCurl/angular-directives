@@ -1,7 +1,8 @@
 # Angular directives [![](https://img.shields.io/badge/autor-letItCurl-red.svg)](https://www.linkedin.com/in/roland-lopez-developer/?locale=en_US)
-> Just training on angulars directives
+> Just training on angulars directives with the great maximilian scharzmuller
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7
+
 
 # About
 
