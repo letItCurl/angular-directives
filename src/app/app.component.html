@@ -26,7 +26,10 @@
         </div>
       </ul>
       <p appBasicHighlight >Style me with the homemade directive !</p>
-      <p appBetterHighlight >Style me with the homemade better directive !</p>
+      <p 
+        [appBetterHighlight]="'black'"
+        [defaultColor]="'red'" >
+        Style me with the homemade better directive !</p>
       <ng-template [ngIf]="onlyOdd">
         <p>Only odd</p>
       </ng-template>
