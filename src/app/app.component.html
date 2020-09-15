@@ -33,6 +33,12 @@
       <ng-template [ngIf]="onlyOdd">
         <p>Only odd</p>
       </ng-template>
+      <div [ngSwitch]="value">
+        <p *ngSwitchCase="0">val1</p>
+        <p *ngSwitchCase="1">val2</p>
+        <p *ngSwitchCase="2">val3</p>
+        <p *ngSwitchDefault>Def.</p>
+      </div>
     </div>
   </div>
 </div>
