@@ -1,0 +1,9 @@
+.container {
+  margin-top: 30px;
+}
+.odd{
+  color: brown;
+}
+.even{
+  color: rgb(225, 127, 255);
+}
